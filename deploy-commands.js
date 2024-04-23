@@ -58,4 +58,4 @@ const rest = new REST().setToken(token);
         // And of course, make sure you catch and log any errors!
         console.error(error);
     }
-})();
+})()
