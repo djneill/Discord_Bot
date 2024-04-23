@@ -30,10 +30,10 @@ This is a Discord bot designed to perform specific actions in response to comman
 3. Configure the bot token:
 - Create a .env file in the root directory.
 - Add your Discord bot token, ClientId, GuildId to the .env file:
-`
-    DISCORD_BOT_TOKEN=your_bot_token_here
-    CLIENTID=client_id
-    GUILDID=guild_id `
+
+    `DISCORD_BOT_TOKEN=your_bot_token_here`
+    `CLIENTID=client_id`
+    `GUILDID=guild_id `
 
 4. Start the bot 
 ``` node index.js ```
