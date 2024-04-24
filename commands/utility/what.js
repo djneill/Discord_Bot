@@ -4,8 +4,8 @@ const link = 'https://leonnoel.com/100devs/'
 module.exports = {
     cooldown: 5,
     data: new SlashCommandBuilder()
-        .setName('wha_is-100Devs')
-        .setDescription('Provides information about 100Devs.'),
+        .setName('what_is_100Devs')
+        .setDescription('Provides information about <100Devs>.'),
     async execute(interaction) {
         // interaction.user is the object representing the User who ran the command
         // interaction.member is the GuildMember object, which represents the user in the specific guild
